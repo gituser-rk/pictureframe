@@ -27,7 +27,7 @@ And I removed the old CCFL backlight and installed a LED backlight instead.
 ### Power saving considerations
 Because it makes no sense that the pictureframe is switched on all the time (at night or nobody is in the room) I decided to implement a power saving function. 
 My first intention was to simply switch off the HDMI signal with the command "subprocess.call('vcgencmd display_power 0',shell=True)" in Python, depending on presence. That's where the name of the program "blank_hdmi.py" is sourced. I use a cheap "HFS-DC06H" Radar sensor board from China. 
-<img src="pics/20201218_170714677_iOS.jpg" higth="250" />
+<img src="pics/20201218_170714677_iOS.jpg" height="250" />
 <img src="pics/20201218_170722323_iOS.jpg" width="250" />
 It can be powered by 3.3, 5 or even more Volts and has an output with a relative short "On" time of 2 seconds minimal (adjustable to max. 120 seconds). And the sensitivity is also adjustable.
 The Raspberry Pi 4 is drawing around 4-5 Watts and the display board including the LCD and backlight another 7 to 8 Watts when displaying pictures (full brightness).
