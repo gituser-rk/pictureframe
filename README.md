@@ -57,5 +57,5 @@ A level shifter is used to convert the 3.3V logic of the Pi GPIO pins to the 5V 
 
 ![Pic2](pics/20201218_151826276_iOS_label.jpg)
 
-
-
+<img src="pics/20201222_153635145_iOS.JPEG" width="800" />
+<img src="pics/20201222_153650751_iOS.JPEG" width="800" />
