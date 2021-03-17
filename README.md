@@ -44,7 +44,7 @@ So finally I've removed the command "subprocess.call('vcgencmd display_power 0',
 #### MOSFET/Relay board
 I had this laying around. Originally it was a pure N-channel MOSFET board which can handle 15 Amps of current and this is more than enough to switch the display parts. But after connecting the HDMI cable to the Pi I've discovered that the HDMI driver board powered off no more. The reason: The MOSFET board switches off the negative, but this is still connected via the HDMI cable (ground/shielding). The solution would be a P-channel MOSFET which I not had, but a 12V relay. So I've added this to the board and it works.
 
-<img src="pics/20201218_151835200_iOS" width="250" />
+<img src="pics/20201218_151835200_iOS.jpg" width="250" />
 
 #### Ambient light sensor
 This is a TLS2561 based I2C ambient light sensor. It is mounted on the inside and the light passes a plastic light guide from outside to the inside.
